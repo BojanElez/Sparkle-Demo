@@ -258,5 +258,80 @@ main .services {
             border-radius: 2px;
             margin-top: 8px; }
 
+.main .portfolio__container__header {
+  height: 370px; }
+  .main .portfolio__container__header .info__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 370px; }
+    .main .portfolio__container__header .info__section__headline {
+      text-transform: uppercase;
+      letter-spacing: 16px;
+      font-size: 20px;
+      padding: 40px 0 30px 0; }
+    .main .portfolio__container__header .info__section__text-holder {
+      text-align: center;
+      max-width: 70%;
+      font-size: 13px; }
+      @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        .main .portfolio__container__header .info__section__text-holder {
+          max-width: 70%; } }
+      @media only screen and (min-width: 1025px) and (max-width: 1300px) {
+        .main .portfolio__container__header .info__section__text-holder {
+          max-width: 40%; } }
+      @media only screen and (min-width: 1301px) {
+        .main .portfolio__container__header .info__section__text-holder {
+          width: 40%; } }
+
+.main .portfolio__container__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .main .portfolio__container__main .section__menu {
+    display: grid;
+    grid-template-columns: 100px 90px 100px; }
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+      .main .portfolio__container__main .section__menu {
+        grid-template-columns: 250px 100px 250px; } }
+    @media only screen and (min-width: 1025px) and (max-width: 1300px) {
+      .main .portfolio__container__main .section__menu {
+        grid-template-columns: 400px 100px 400px; } }
+    @media only screen and (min-width: 1301px) {
+      .main .portfolio__container__main .section__menu {
+        grid-template-columns: 450px 100px 450px; } }
+    .main .portfolio__container__main .section__menu__item {
+      height: 64px;
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000; }
+      .main .portfolio__container__main .section__menu__item .menu {
+        height: 64px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row; }
+        .main .portfolio__container__main .section__menu__item .menu__item {
+          list-style-type: none; }
+    .main .portfolio__container__main .section__menu__center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .main .portfolio__container__main .section__menu__center .circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+        background-color: #000;
+        margin-top: 0px; }
+        @media only screen and (min-width: 1301px) {
+          .main .portfolio__container__main .section__menu__center .circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            background-color: #000;
+            margin-top: -20px; } }
+
 /**************************************************/
 /**************************************************/
