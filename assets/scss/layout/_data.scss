@@ -1,0 +1,32 @@
+main {
+  .data {
+    @include box(100%, 240px);
+    background-color: $theme-color-1;
+
+    &__container {
+      max-width: 1200px;
+      margin: 0 auto;
+      height: 242px;
+      .card {
+        display: grid;
+        height: 242px;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        grid-gap: 20px;
+        &__item {
+          @include flex(row, center, center);
+          .btn {
+            &__btn-white {
+              width: 270px;
+              font-size: 13px;
+              height: 70px;
+              padding: 0 60px;
+              text-transform: uppercase;
+              background-color: #fff;
+              border-color: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="description">
-    <meta name="keywords" content="keywords">
+    <meta name="description" content="Sparkle Demo">
+    <meta name="keywords" content="Sparkle Demo">
     <meta name="author" content="Bojan Elez">
     <meta name="robots" content="noindex,nofollow">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
      <!-------- FONTAWESOME CDN -------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-    <title>Enter Title</title>
+    <title>Sparkle Demo</title>
 </head>
 <body>
     <div class="page" id="root">
@@ -19,14 +19,41 @@
         <!------------------------------------------------------->
         <header class="header">
             <div class="header__navigation">
-                <nav class="nav">
-                    <ul class="nav__menu">
-                        <li class="nav__menu item"><a href="">Item1</a></li>
-                        <li class="nav__menu item"><a href="">Item2</a></li>
-                        <li class="nav__menu item"><a href="">Item3</a></li>
-                        <li class="nav__menu item"><a href="">Item3</a></li>
-                    </ul>
-                </nav>
+                <div class="header__logo">
+                    <!-- //<img src="./assets/images/logo.png" class="logo" alt="logo"> -->
+                </div>
+                <div class="header__nav_menu">
+                    <div class="lines"></div>
+                    <div class="lines"></div>
+                    <div class="lines"></div>
+                </div>
+            </div>
+            <!-- <nav class="nav">
+                <ul class="nav__menu">
+                    <li class="nav__menu item"><a href="">Item1</a></li>
+                    <li class="nav__menu item"><a href="">Item2</a></li>
+                    <li class="nav__menu item"><a href="">Item3</a></li>
+                    <li class="nav__menu item"><a href="">Item3</a></li>
+                </ul>
+            </nav> -->
+            <!------------------------------------------------------->
+            <!-------- BANNER -------->
+            <!------------------------------------------------------->
+            <section class="banner">
+                <div class="banner__container">
+                    <div class="banner__container__headline">
+                        <h1 class="headline">DESIGN COMES TO THOSE WHO WAIT</h1>
+                    </div>
+                    <div class="banner__container__text-holder">
+                        <p class="text-holder">Hello This is Onepage Multipurpose Template.</p>
+                    </div>
+                    <div class="banner__container__btn-holder">
+                        <button class="btn__btn-yellow">learn more</button>
+                    </div>
+                </div>
+            </section>
+            <div class="header__arrow">
+                <i class="fas fa-arrow-down" ></i>
             </div>
         </header>
         <!------------------------------------------------------->
@@ -34,48 +61,390 @@
         <!------------------------------------------------------->
         <main class="main">
                 <!------------------------------------------------------->
-                <!-------- ABOUT -------->
+                <!-------- INTRO -------->
                 <!------------------------------------------------------->
-                <section class="about">
-                    <div class="card">
-                        <div class="card__conatainer">
-                        </div>
+                <section class="intro">
+                    <div class="intro__container">
+                        <img src="./assets/images/logo.png" alt="logo">
+                        <p class="text-holder">Donec rutrum congue leo eget malesuada. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur non nulla sit amet nisl tempus</p>
                     </div>
-                    <div class="card">
-                        <div class="card__conatainer">
-                        </div>
+                </section>
+                <!------------------------------------------------------->
+                <!-------- SERVICES -------->
+                <!------------------------------------------------------->
+                <section class="services">
+                    <div class="services__container">
+                        <header class="services__container__header">
+                            <div class="info__section">
+                                <div class="info__section__logo">
+                                     <img src="./assets/images/logo.png" alt="logo">
+                                </div>
+                                <div class="info__section__headline">
+                                     <h2 class="headline">Our Services</h2>
+                                </div>
+                                <div class="info__section__text-holder">
+                                     <p class="text-holder">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada</p>
+                                </div>
+                            </div>
+                        </header>
+                         <main class="services__container__main"> 
+                            <div class="card">
+                                <div class="card__container">
+                                    <div class="card__container__headline">
+                                        <i class="fas fa-print"></i>
+                                        <h3 class="headline">Graphic Design</h3>
+                                        <p class="text-holder">
+                                            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut 
+                                            acinia in, elementum id enim. Donec sollicitudin
+                                        </p>
+                                    </div>   
+                                    <div class="card__container__item-holder">
+                                        <div class="item">
+                                            <p class="item__holder">PS</p>
+                                            <div class="item__line"></div>
+                                        </div>                                         
+                                        <div class="item">
+                                            <p class="item__holder">ai</p>
+                                            <div class="item__line"></div>
+                                        </div>
+                                        <div class="item">
+                                            <p class="item__holder">id</p>
+                                            <div class="item__line"></div>
+                                        </div>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__container">
+                                    <div class="card__container__headline">
+                                        <i class="fas fa-tv"></i>
+                                        <h3 class="headline">Web Design</h3>
+                                        <p class="text-holder">
+                                            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut 
+                                            acinia in, elementum id enim. Donec sollicitudin
+                                        </p>
+                                    </div>
+                                    <div class="card__container__item-holder">
+                                        <div class="item">
+                                            <p class="item__holder">UI</p>
+                                            <div class="item__line"></div>
+                                        </div>
+                                        <div class="item">
+                                            <p class="item__holder">UX</p>
+                                            <div class="item__line"></div>
+                                        </div>
+                                        <div class="item">
+                                            <p class="item__holder">Responsive</p>
+                                            <div class="item__line"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__container">
+                                    <div class="card__container__headline">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <h3 class="headline">Web development</h3>
+                                        <p class="text-holder">
+                                            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut 
+                                            acinia in, elementum id enim. Donec sollicitudin
+                                        </p>
+                                    </div>
+                                    <div class="card__container__item-holder">
+                                        <div class="item">
+                                            <p class="item__holder">html</p>
+                                            <div class="item__line"></div>
+                                        </div>  
+                                        <div class="item">
+                                            <p class="item__holder">css</p>
+                                            <div class="item__line"></div>
+                                        </div>  
+                                        <div class="item">
+                                            <p class="item__holder">js</p>
+                                            <div class="item__line"></div>
+                                        </div>                
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card__container">
+                                    <div class="card__container__headline">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        <h3 class="headline">App development</h3>
+                                        <p class="text-holder">
+                                            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut 
+                                            acinia in, elementum id enim. Donec sollicitudin
+                                        </p>
+                                    </div>
+                                        
+                                    <div class="card__container__item-holder">
+                                        <div class="item">
+                                            <p class="item__holder">c+</p>
+                                            <div class="item__line"></div>
+                                        </div>
+                                        <div class="item">
+                                            <p class="item__holder">java</p>
+                                            <div class="item__line"></div>
+                                        </div>
+                                        <div class="item">
+                                            <p class="item__holder">swift</p>
+                                            <div class="item__line"></div>
+                                        </div>   
+                                    </div>
+                                </div>
+                            </div>
+                        <mainv>
                     </div>
-                    <div class="card">
-                        <div class="card__conatainer">
-
+                </section>
+                <!------------------------------------------------------->
+                <!-------- DATA -------->
+                <!------------------------------------------------------->
+                <section class="data">
+                    <div class="data__container">
+                        <div class="card">
+                            <div class="card__item">
+                                <button class="btn__btn-white">694<br> completed designs</button>
+                            </div>
+                            <div class="card__item">
+                                <button class="btn__btn-white">324<br> pages create</button>
+                            </div>
+                            <div class="card__item">
+                                <button class="btn__btn-white">134<br> pages coded</button>
+                            </div>
+                            <div class="card__item">
+                                <button class="btn__btn-white">27<br> apps finished</button>
+                            </div>
                         </div>
                     </div>
                 </section>
                 <!------------------------------------------------------->
-                <!-------- SECTION -------->
+                <!-------- PORTFOLIO -------->
                 <!------------------------------------------------------->
-                <section class="section">
-                    <main class="section__card">
-                        <section class="card__container">
-                            <div class="card__container__item">
+                <section class="portfolio">
+                    <div class="portfolio__container">
+                        <header class="portfolio__container__header">
+                            <div class="info__section">
+                                <div class="info__section__logo">
+                                     <img src="./assets/images/logo.png" alt="logo">
+                                </div>
+                                <div class="info__section__headline">
+                                     <h2 class="headline">Our portfolio</h2>
+                                </div>
+                                <div class="info__section__text-holder">
+                                     <p class="text-holder">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada</p>
+                                </div>
                             </div>
-                            <div class="card__container__item">
+                        </header>
+                        <main class="portfolio__container__main">
+                            <div class="section__menu">
+                                <div class="section__menu__left">
+                                    <ul class="menu">
+                                        <li class="menu__item">Graphic</li>
+                                        <li class="menu__item">Web</li>
+                                    </ul>
+                                </div>
+                                <div class="section__menu__logo">development</div>
+                                <div class="section__menu__right">App</div>
                             </div>
-                            <div class="card__container__item">
+                        </main>
+                        <footer class="portfolio__container__footer">
+                            <div class="cards__container">
+                                <div class="card">
+                                    <div class="card__item">
+                                        black
+                                    </div>
+                                    <div class="card__item">
+                                        <div class="yellow-rectangle">y</div>
+                                        <div class="yellow-rectangle">y</div>
+                                    </div>
+                                    <div class="card__item">
+                                        black
+                                    </div>
+                                    <div class="card__item">
+                                        black
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card__container__item">
+                            <div class="button-container">
+                                <button class="btn__btn-yellow">like what you see?</button>
                             </div>
-                        </section>
-                    </main>
+                        </footer>
+                    </div>
+                </section>
+                <!------------------------------------------------------->
+                <!-------- VIDEO SECTION -------->
+                <!------------------------------------------------------->
+                <section class="video">
+                    <div class="video__btn-container">
+                        <button class="btn__btn-transparent">view our video</button>
+                    </div>
+                </section>
+                <!------------------------------------------------------->
+                <!-------- TEAM SECTION -------->
+                <!------------------------------------------------------->
+                <section class="team">
+                    <div class="team__container">
+                        <header class="team__container__header">
+                            <div class="info__section">
+                                <div class="info__section__logo">
+                                     <img src="./assets/images/logo.png" alt="logo">
+                                </div>
+                                <div class="info__section__headline">
+                                     <h2 class="headline">Our team</h2>
+                                </div>
+                                <div class="info__section__text-holder">
+                                     <p class="text-holder">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Donec sollicitudin molestie malesuada</p>
+                                </div>
+                            </div>
+                        </header>
+                        <main class="team__container__main">
+                            <div class="cards__container">
+                                <div class="card">
+                                    <div class="card__item">
+                                        <div class="card__item__headline">
+                                            <img src="" alt="">
+                                            <h3>John Doe</h3>
+                                        </div>
+                                        <div class="card__item__text-holder">
+                                            <p class="text-holder">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut 
+                                                lacinia in, elementum id enim. Donec sollicitudin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card__item">
+                                        <div class="card__item__headline">
+                                            <img src="" alt="">
+                                            <h3>John Doe</h3>
+                                        </div>
+                                        <div class="card__item__text-holder">
+                                            <p class="text-holder">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut 
+                                                lacinia in, elementum id enim. Donec sollicitudin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card__item">
+                                        <div class="card__item__headline">
+                                            <img src="" alt="">
+                                            <h3>John Doe</h3>
+                                        </div>
+                                        <div class="card__item__text-holder">
+                                            <p class="text-holder">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut 
+                                                lacinia in, elementum id enim. Donec sollicitudin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card__item">
+                                        <div class="card__item__headline">
+                                            <img src="" alt="">
+                                            <h3>John Doe</h3>
+                                        </div>
+                                        <div class="card__item__text-holder">
+                                            <p class="text-holder">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Quisque velit nisi, pretium ut 
+                                                lacinia in, elementum id enim. Donec sollicitudin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+                        <footer class="team__container__footer">
+                            <div class="team__banner">
+                                <div class="card">
+                                    <div class="card__text-holder__dark">
+                                        <p class="text-holder">
+                                            Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat.
+                                            Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetuquis ac lectus. Nulla quis lorem ut libero malesuada feugiat.
+                                        </p>                                       
+                                    </div>
+                                    <div class="card__text-holder__dark">
+                                        <p class="text-holder">
+                                            Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Nulla quis lorem ut libero malesuada feugiat.
+                                            Pellentesque in ipsum id orci porta dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetuquis ac lectus. Nulla quis lorem ut libero malesuada feugiat.
+                                        </p>
+                                    </div>
+                                    <div class="card__text-holder__white">
+                                        <p class="text-holder">
+                                            “Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabisl tempus convallis justo, lacinia eget malesuada feugiat”
+                                        </p>
+                                        <blockquote>Jonh Doe seo</blockquote>
+                                    </div>
+                                    <div class="card__text-holder__white">
+                                        <p class="text-holder">
+                                            “Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabisl tempus convallis justo, lacinia eget malesuada feugiat”
+                                        </p>
+                                        <blockquote>Jonh Doe seo</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="button-container">
+                                <button class="btn__btn-yellow">like what you see?</button>
+                            </div>
+                        </footer>
+                    </div>
                 </section>
         </main>
         <!------------------------------------------------------->
         <!-------- FOOTER -------->
         <!------------------------------------------------------->
         <footer class="footer">
-            <div class="footer__container">
-                Footer information, links, etc.
-            </div>
+            <section class="data">
+                <div class="data__container">
+                    <div class="card">
+                        <div class="card__item">
+                            <div class="card__item__headline">logo</div>
+                            <div class="card__item__text-holder">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.
+                                Pellentesque in ipsum id orci porta dapibus.</div>
+                            <div class="card__item__copyright">Created by Graphberry,Belgrade,Serbia</div>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__item__headline">Links</div>
+                            <div class="card__item__menu">
+                                <ul class="menu">
+                                    <li class="menu__item">Home</li>
+                                    <li class="menu__item">Our services</li>
+                                    <li class="menu__item">portfolio</li>
+                                    <li class="menu__item">testemonials</li>
+                                    <li class="menu__item">support</li>
+                                    <li class="menu__item">terms and conditions</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__item__headline">About</div>
+                            <div class="card__item__menu">
+                                <ul class="menu">
+                                    <li class="menu__item">sign in</li>
+                                    <li class="menu__item">register</li>
+                                    <li class="menu__item">about us</li>
+                                    <li class="menu__item">testemonials</li>
+                                    <li class="menu__item">support</li>
+                                    <li class="menu__item">contact us</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__item__headline">contact us</div>
+                            <div class="card__item__text-holder">
+                                <p class="text-holder">
+                                    Get in touch with us via mail phone.We are waiting for 
+                                    your call or message
+                                </p>
+                            </div>
+                            <div class="card__item__button-holder">
+                                <button class="btn__btn-yellow">belez121@gmail.com</button>
+                            </div>
+                            <div class="card__item__icons-holder">
+                                <span class="icon"><i class="fab fa-facebook-f"></i></span> 
+                                <span class="icon"><i class="fab fa-twitter"></i></span> 
+                                <span class="icon"><i class="fab fa-google-plus-g"></i></span> 
+                                <span class="icon"><i class="fab fa-instagram"></i></span> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </footer> 
     </div>  
 </body>

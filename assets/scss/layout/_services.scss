@@ -1,0 +1,111 @@
+main {
+  .services {
+    background-color: $theme-color-6;
+    width: 100%;
+    &__container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-bottom: 40px;
+      &__header {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: $theme-color-6;
+        .info__section {
+          @include flex(column, center, center);
+          &__logo {
+            padding-top: 80px;
+            img {
+              height: 50px;
+              background-color: $theme-color-2;
+            }
+          }
+          &__headline {
+            .headline {
+              padding-top: 35px;
+              color: $theme-color-1;
+              font-size: 20px;
+            }
+          }
+          &__text-holder {
+            .text-holder {
+              font-size: 12px;
+              padding: 40px 0 90px 0;
+              color: $theme-color-1;
+              text-align: center;
+              line-height: 16px;
+              margin: 0 auto;
+              @include screen("tablet") {
+                max-width: 70%;
+              }
+              @include screen("laptops") {
+                max-width: 40%;
+              }
+              @include screen("desktop") {
+                width: 40%;
+              }
+            }
+          }
+        }
+      }
+      &__main {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        grid-gap: 20px;
+        .card {
+          &__container {
+            &__headline {
+              @include flex(column, center, center);
+              height: 350px;
+              border: 1px solid #ccc;
+              background-color: $white;
+              padding: 0 10px;
+              .fas {
+                color: $theme-color-2;
+                font-size: 50px;
+              }
+              .headline {
+                padding-top: 60px;
+                color: $theme-color-1;
+                font-size: 15px;
+                text-transform: uppercase;
+                width: 100px;
+                letter-spacing: 1px;
+                text-align: center;
+              }
+              .text-holder {
+                padding-top: 40px;
+                text-align: center;
+                line-height: 20px;
+                font-size: 12px;
+                color: $theme-color-1;
+              }
+            }
+            &__item-holder {
+              @include flex(column, flex-start, center);
+              background-color: $white;
+              margin-top: 30px;
+              padding: 10px 12px;
+              height: 160px;
+              .item {
+                height: 32px;
+                &:nth-child(2) {
+                  margin: 16px 0;
+                }
+                &__holder {
+                  font-size: 12px;
+                  text-transform: uppercase;
+                }
+                &__line {
+                  @include box(230px, 5px);
+                  background-color: $theme-color-4;
+                  border-radius: 2px;
+                  margin-top: 8px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

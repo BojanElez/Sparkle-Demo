@@ -1,0 +1,26 @@
+.main {
+  width: 100%;
+  .intro {
+    height: 645px;
+    width: 100%;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+    &__container {
+      height: 500px;
+      padding-top: 170px;
+      @include flex(column, center, center);
+      img {
+        height: 80px;
+        background-color: $theme-color-2;
+      }
+      .text-holder {
+        padding-top: 80px;
+        color: $theme-color-1;
+        max-width: 90%;
+        text-align: center;
+        line-height: 16px;
+        font-size: 13px;
+      }
+    }
+  }
+}

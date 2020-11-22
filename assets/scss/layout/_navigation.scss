@@ -1,4 +1,26 @@
 .header {
   &__navigation {
+    @include lineHeight(86px);
+    @include flex(row, center, space-between);
+    padding: 0 10px;
+  }
+  &__logo {
+    @include circle(46px, $white);
+  }
+  &__nav_menu {
+    @include flex(column, flex-end, center);
+    width: 60px;
+    .lines {
+      @include box(35px, 4px);
+      border-radius: 3px;
+      margin: 3px 0;
+      background-color: $theme-color-2;
+      &:nth-child(2) {
+        width: 30px;
+      }
+      &:nth-child(3) {
+        width: 18px;
+      }
+    }
   }
 }

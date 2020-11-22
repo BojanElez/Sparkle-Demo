@@ -1,2 +1,52 @@
 .header {
+  @include box(100%, 100vh);
+  background-color: $theme-color-1;
+  position: relative;
+  .banner {
+    @include center-vertically;
+    min-width: 300px;
+    &__container {
+      @include flex(column, center, center);
+      &__headline {
+        h1.headline {
+          font-size: 20px;
+          letter-spacing: 6px;
+          @include screen("desktop") {
+            letter-spacing: 16px;
+          }
+          text-align: center;
+          color: $theme-color-3;
+        }
+      }
+      &__text-holder {
+        padding-top: 35px;
+        p.text-holder {
+          font-size: 13px;
+          color: $theme-color-3;
+        }
+      }
+      &__btn-holder {
+        padding-top: 50px;
+        button.btn {
+          &__btn-yellow {
+            @include lineHeight(45px);
+            width: 170px;
+            text-transform: uppercase;
+            color: $theme-color-1;
+            background-color: $theme-color-2;
+            border: $theme-color-2;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  &__arrow {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    .fas {
+      color: $white;
+    }
+  }
 }
